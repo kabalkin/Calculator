@@ -1,11 +1,22 @@
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\bin\Debug\netcoreapp2.0\WebCalculator.deps.json
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\bin\Debug\netcoreapp2.0\WebCalculator.runtimeconfig.json
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\bin\Debug\netcoreapp2.0\WebCalculator.runtimeconfig.dev.json
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\bin\Debug\netcoreapp2.0\WebCalculator.dll
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\bin\Debug\netcoreapp2.0\WebCalculator.pdb
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\obj\Debug\netcoreapp2.0\WebCalculator.csprojResolveAssemblyReference.cache
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\obj\Debug\netcoreapp2.0\WebCalculator.csproj.CoreCompileInputs.cache
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\obj\Debug\netcoreapp2.0\WebCalculator.AssemblyInfoInputs.cache
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\obj\Debug\netcoreapp2.0\WebCalculator.AssemblyInfo.cs
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\obj\Debug\netcoreapp2.0\WebCalculator.dll
-c:\users\алексей\source\repos\WebCalculator\WebCalculator\obj\Debug\netcoreapp2.0\WebCalculator.pdb
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.deps.json
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.runtimeconfig.json
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.runtimeconfig.dev.json
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.dll
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.pdb
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csprojResolveAssemblyReference.cache
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.CoreCompileInputs.cache
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.AssemblyInfoInputs.cache
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.AssemblyInfo.cs
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.dll
+c:/users/алексей/source/repos/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.pdb
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.deps.json
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.runtimeconfig.json
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.runtimeconfig.dev.json
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.dll
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.pdb
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csprojAssemblyReference.cache
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.CoreCompileInputs.cache
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.AssemblyInfoInputs.cache
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.AssemblyInfo.cs
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.dll
+/home/kabalkin/Рабочий стол/new/Calculator/WebCalculator/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.pdb
