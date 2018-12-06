@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="765ad938-4cf3-44fb-9768-28206c3b0c9e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/WebCalculator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/Views/Shared/_Navigation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/Views/Shared/_Navigation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/wwwroot/js/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/wwwroot/js/script.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_Navigation.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCalculator/Views/Shared/_Navigation.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+              <folding>
+                <marker date="1544117894772" expanded="true" signature="0:23566" ph="&lt;nav.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="70:23559" ph="&lt;div.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="109:23548" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="153:1454" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="193:1346" ph="&lt;div.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="252:382" ph="&lt;span.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="403:819" ph="&lt;a.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="487:794" ph="&lt;span.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="536:681" ph="&lt;span.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="840:1323" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="1363:1436" ph="&lt;div.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="1467:2615" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="1740:2597" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="2628:2909" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="2922:4345" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="3147:4327" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="4358:5304" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="4611:5286" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="5317:5545" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="5558:5782" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="5795:7090" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="6010:7072" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="7103:10218" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="7362:10200" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="10231:11960" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="10460:11942" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="11973:16439" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="12235:16421" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="16452:18435" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="16684:18417" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="18448:18689" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="18702:19599" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="18921:19581" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="19612:20969" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="19849:20951" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="20982:21802" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="21208:21784" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="21815:22970" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="21999:22952" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="22053:22649" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="22165:22623" ph="&lt;ul.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="22226:22329" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="22358:22461" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="22490:22593" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="22733:22821" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="22842:22930" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="22983:23280" ph="&lt;li.../&gt;" />
+                <marker date="1544117894772" expanded="true" signature="23293:23534" ph="&lt;li.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCalculator/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding>
+                <marker date="1544116365061" expanded="false" signature="6:255" ph="..." />
+                <marker date="1544116365061" expanded="true" signature="280:733" ph="{...}" />
+                <marker date="1544116365061" expanded="true" signature="307:731" ph="{...}" />
+                <marker date="1544116365061" expanded="true" signature="360:418" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCalculator/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+              <folding>
+                <marker date="1544117659232" expanded="true" signature="6:258" ph="..." />
+                <marker date="1544117659232" expanded="true" signature="283:2166" ph="{...}" />
+                <marker date="1544117659232" expanded="true" signature="310:2164" ph="{...}" />
+                <marker date="1544117659232" expanded="true" signature="364:1170" ph="{...}" />
+                <marker date="1544117659232" expanded="true" signature="691:1067" ph="{...}" />
+                <marker date="1544117659232" expanded="true" signature="1404:1455" ph="{...}" />
+                <marker date="1544117659232" expanded="true" signature="1643:2158" ph="{...}" />
+                <marker date="1544117659232" expanded="true" signature="1690:1805" ph="{...}" />
+                <marker date="1544117659232" expanded="true" signature="1822:1906" ph="{...}" />
+                <marker date="1544117659232" expanded="true" signature="1975:2146" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebCalculator/Views/Shared/_Layout.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+              <folding>
+                <marker date="1544114303515" expanded="true" signature="16:3131" ph="&lt;html.../&gt;" />
+                <marker date="1544114303515" expanded="true" signature="23:1382" ph="&lt;head.../&gt;" />
+                <marker date="1544114303515" expanded="true" signature="311:391" ph="@..." />
+                <marker date="1544114303515" expanded="true" signature="343:391" ph="{...}" />
+                <marker date="1544114303515" expanded="true" signature="396:838" ph="&lt;environment.../&gt;" />
+                <marker date="1544114303515" expanded="true" signature="843:1304" ph="&lt;environment.../&gt;" />
+                <marker date="1544114303515" expanded="true" signature="1383:3123" ph="&lt;body.../&gt;" />
+                <marker date="1544114303515" expanded="true" signature="1492:2024" ph="&lt;div.../&gt;" />
+                <marker date="1544114303515" expanded="true" signature="1639:1910" ph="&lt;div.../&gt;" />
+                <marker date="1544114303515" expanded="true" signature="2053:2577" ph="&lt;environment.../&gt;" />
+                <marker date="1544114303515" expanded="true" signature="2582:3068" ph="&lt;environment.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile_small.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCalculator/wwwroot/images/profile_small.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCalculator/.bowerrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.Development.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCalculator/appsettings.Development.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCalculator/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="bundleconfig.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebCalculator/bundleconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebCalculator/Views/Shared/_Navigation.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebCalculator/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2EBC9DAA-43D8-4083-9D84-090293B7566F/f6/af138146/UserSecretsConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebCalculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebCalculator/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebCalculator/Program.cs" />
+        <option value="$PROJECT_DIR$/WebCalculator/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebCalculator/Views/Shared/_Navigation.cshtml" />
+        <option value="$PROJECT_DIR$/WebCalculator/Views/Shared/_Layout.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib/footable/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib/markdown/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib/morrisjs/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib/rickshaw/examples/socket.io/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib/rickshaw/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/awesome-bootstrap-checkbox/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/bootstrap-datepicker/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/bootstrap-markdown/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/bootstrap-touchspin/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/bootstrap-tour/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/cropper/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/eventie/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/get-style-property/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/jasny-bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/jknob/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/jquery-idletimer/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/jquery-validation/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/metisMenu/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/peity/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/select2/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/slick-carousel/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/slimScroll/package.json" />
+      <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/sweetalert/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1" />
+    <option name="y" value="26" />
+    <option name="width" value="1922" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebCalculator (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebCalculator (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebCalculator" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebCalculator (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebCalculator" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebCalculator (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebCalculator" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Shared" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebCalculator (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebCalculator" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebCalculator (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebCalculator" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="images" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebCalculator (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebCalculator" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="js" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ASPNET_Core_1_0_Full_Project/ASPNET_Core_1_0.sln" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebCalculator" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:47061/" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WebCalculator/WebCalculator.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser start="true" url="http://localhost:47061/" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="765ad938-4cf3-44fb-9768-28206c3b0c9e" name="Default" comment="" />
+      <created>1544114367417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544114367417</updated>
+      <workItem from="1544114375449" duration="252000" />
+      <workItem from="1544115986803" duration="2077000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2329000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="26" width="1922" height="1057" extended-state="7" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebCalculator/Views/Shared/_Navigation.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="116" lean-forward="true" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
+          <folding>
+            <marker date="1544117894772" expanded="true" signature="0:23566" ph="&lt;nav.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="70:23559" ph="&lt;div.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="109:23548" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="153:1454" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="193:1346" ph="&lt;div.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="252:382" ph="&lt;span.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="403:819" ph="&lt;a.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="487:794" ph="&lt;span.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="536:681" ph="&lt;span.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="840:1323" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="1363:1436" ph="&lt;div.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="1467:2615" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="1740:2597" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="2628:2909" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="2922:4345" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="3147:4327" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="4358:5304" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="4611:5286" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="5317:5545" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="5558:5782" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="5795:7090" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="6010:7072" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="7103:10218" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="7362:10200" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="10231:11960" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="10460:11942" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="11973:16439" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="12235:16421" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="16452:18435" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="16684:18417" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="18448:18689" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="18702:19599" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="18921:19581" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="19612:20969" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="19849:20951" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="20982:21802" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="21208:21784" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="21815:22970" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="21999:22952" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22053:22649" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22165:22623" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22226:22329" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22358:22461" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22490:22593" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22733:22821" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22842:22930" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22983:23280" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="23293:23534" ph="&lt;li.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCalculator/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <marker date="1544116365061" expanded="false" signature="6:255" ph="..." />
+            <marker date="1544116365061" expanded="true" signature="280:733" ph="{...}" />
+            <marker date="1544116365061" expanded="true" signature="307:731" ph="{...}" />
+            <marker date="1544116365061" expanded="true" signature="360:418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2EBC9DAA-43D8-4083-9D84-090293B7566F/f6/af138146/UserSecretsConfigurationExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCalculator/wwwroot/images/profile_small.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCalculator/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCalculator/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCalculator/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCalculator/bundleconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCalculator/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <marker date="1544117659232" expanded="true" signature="6:258" ph="..." />
+            <marker date="1544117659232" expanded="true" signature="283:2166" ph="{...}" />
+            <marker date="1544117659232" expanded="true" signature="310:2164" ph="{...}" />
+            <marker date="1544117659232" expanded="true" signature="364:1170" ph="{...}" />
+            <marker date="1544117659232" expanded="true" signature="691:1067" ph="{...}" />
+            <marker date="1544117659232" expanded="true" signature="1404:1455" ph="{...}" />
+            <marker date="1544117659232" expanded="true" signature="1643:2158" ph="{...}" />
+            <marker date="1544117659232" expanded="true" signature="1690:1805" ph="{...}" />
+            <marker date="1544117659232" expanded="true" signature="1822:1906" ph="{...}" />
+            <marker date="1544117659232" expanded="true" signature="1975:2146" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCalculator/Views/Shared/_Navigation.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+          <folding>
+            <marker date="1544117894772" expanded="true" signature="0:23566" ph="&lt;nav.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="70:23559" ph="&lt;div.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="109:23548" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="153:1454" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="193:1346" ph="&lt;div.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="252:382" ph="&lt;span.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="403:819" ph="&lt;a.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="487:794" ph="&lt;span.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="536:681" ph="&lt;span.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="840:1323" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="1363:1436" ph="&lt;div.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="1467:2615" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="1740:2597" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="2628:2909" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="2922:4345" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="3147:4327" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="4358:5304" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="4611:5286" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="5317:5545" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="5558:5782" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="5795:7090" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="6010:7072" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="7103:10218" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="7362:10200" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="10231:11960" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="10460:11942" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="11973:16439" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="12235:16421" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="16452:18435" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="16684:18417" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="18448:18689" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="18702:19599" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="18921:19581" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="19612:20969" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="19849:20951" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="20982:21802" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="21208:21784" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="21815:22970" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="21999:22952" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22053:22649" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22165:22623" ph="&lt;ul.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22226:22329" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22358:22461" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22490:22593" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22733:22821" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22842:22930" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="22983:23280" ph="&lt;li.../&gt;" />
+            <marker date="1544117894772" expanded="true" signature="23293:23534" ph="&lt;li.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCalculator/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <marker date="1544114303515" expanded="true" signature="16:3131" ph="&lt;html.../&gt;" />
+            <marker date="1544114303515" expanded="true" signature="23:1382" ph="&lt;head.../&gt;" />
+            <marker date="1544114303515" expanded="true" signature="311:391" ph="@..." />
+            <marker date="1544114303515" expanded="true" signature="343:391" ph="{...}" />
+            <marker date="1544114303515" expanded="true" signature="396:838" ph="&lt;environment.../&gt;" />
+            <marker date="1544114303515" expanded="true" signature="843:1304" ph="&lt;environment.../&gt;" />
+            <marker date="1544114303515" expanded="true" signature="1383:3123" ph="&lt;body.../&gt;" />
+            <marker date="1544114303515" expanded="true" signature="1492:2024" ph="&lt;div.../&gt;" />
+            <marker date="1544114303515" expanded="true" signature="1639:1910" ph="&lt;div.../&gt;" />
+            <marker date="1544114303515" expanded="true" signature="2053:2577" ph="&lt;environment.../&gt;" />
+            <marker date="1544114303515" expanded="true" signature="2582:3068" ph="&lt;environment.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
