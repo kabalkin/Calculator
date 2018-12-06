@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="765ad938-4cf3-44fb-9768-28206c3b0c9e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/WebCalculator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/Views/Shared/_Navigation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/Views/Shared/_Navigation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebCalculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/bin/Debug/netcoreapp2.0/WebCalculator.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csprojResolveAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/Debug/netcoreapp2.0/WebCalculator.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/WebCalculator.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebCalculator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCalculator/wwwroot/js/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebCalculator/wwwroot/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -128,7 +118,7 @@
       <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebCalculator/Views/Shared/_Layout.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="435">
               <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding>
                 <marker date="1544114303515" expanded="true" signature="16:3131" ph="&lt;html.../&gt;" />
@@ -237,7 +227,7 @@
       <path value="$PROJECT_DIR$/WebCalculator/wwwroot/lib_bower/sweetalert/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="26" />
     <option name="width" value="1922" />
@@ -352,12 +342,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544114367417</updated>
       <workItem from="1544114375449" duration="252000" />
-      <workItem from="1544115986803" duration="2077000" />
+      <workItem from="1544115986803" duration="2595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2329000" />
+    <option name="totallyTimeSpent" value="2847000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,7 +359,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="26" width="1922" height="1057" extended-state="7" />
+    <frame x="-1" y="26" width="1922" height="1057" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -377,7 +367,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="NuGet" order="7" />
@@ -588,7 +578,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebCalculator/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="435">
           <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
             <marker date="1544114303515" expanded="true" signature="16:3131" ph="&lt;html.../&gt;" />
