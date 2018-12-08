@@ -14,7 +14,12 @@ namespace WebCalculator.Controllers
         {
             return View();
         }
-     
+         
+
+         public IActionResult Dashboard_2()
+         {
+             return View();
+         }
 
         public IActionResult Error()
         {
