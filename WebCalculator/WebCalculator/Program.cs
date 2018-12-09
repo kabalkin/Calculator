@@ -21,8 +21,9 @@ namespace WebCalculator
             WebHost.CreateDefaultBuilder(args)
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
+                .UseIISIntegration()                
                 .UseStartup<Startup>()
+                .UseUrls("http://localhost:5000/")
                 .Build();
     }
 }

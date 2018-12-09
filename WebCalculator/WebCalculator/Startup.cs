@@ -4,8 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using WebCalculator.Models;
 
 namespace WebCalculator
 {
@@ -37,6 +39,7 @@ namespace WebCalculator
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSignalR();
             services.AddMvc();
         }
 
@@ -60,6 +63,17 @@ namespace WebCalculator
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+            });
+
+             app.UseSignalR(routes =>
+            {
+                routes.MapHub<MessagesHub>("/message");
+            });
+
+             app.Use(next => async (context) =>
+            {
+                var hubContext = context.RequestServices
+                    .GetRequiredService<IHubContext<MessagesHub>>();                
             });
         }
     }
