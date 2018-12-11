@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="~/lib_bower/metisMenu/dist/metisMenu.css" />
         <link rel="stylesheet" href="~/css/animate.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/lib_bower/toastr/toastr.css" />
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -21,6 +22,7 @@
         <link rel="stylesheet" href="~/lib_bower/metisMenu/dist/metisMenu.min.css" />
         <link rel="stylesheet" href="~/css/animate.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/lib_bower/toastr/toastr.min.css" />
     </environment>
 
     
@@ -53,7 +55,10 @@
         <script src="~/lib_bower/metisMenu/dist/metisMenu.js"></script>
         <script src="~/lib_bower/slimScroll/jquery.slimscroll.js"></script>
         <script src="~/lib_bower/pace/pace.js"></script>
+        <script src="~/lib_bower/toastr/toastr.js"></script>
         <script src="~/js/script.js"></script>
+        <script src="~/js/signalr.js"></script>
+
         <!-- Only for demo purpose -->
         <script src="~/js/skin.config.js"></script>
     </environment>
@@ -63,8 +68,49 @@
         <script src="~/lib_bower/metisMenu/dist/metisMenu.min.js"></script>
         <script src="~/lib_bower/pace/pace.min.js"></script>
         <script src="~/lib_bower/slimScroll/jquery.slimscroll.min.js"></script>
+        <script src="~/lib_bower/toastr/toastr.min.js"></script>
         <script src="~/js/script.js" asp-append-version="true"></script>
+        <script src="~/js/signalr.js"></script>        
     </environment>
+
+ 
+    <script>
+        $(document).ready(function () {
+                  toastr.options = {
+        "closeButton": true,
+        "debug": false,
+        "progressBar": true,
+        "positionClass": "toast-top-right",
+        "onclick": null,
+        "showDuration": "400",
+        "hideDuration": "1000",
+        "timeOut": "7000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+      }
+      
+           
+        });
+
+         let hubUrl = '/message';
+        const hubConnection = new signalR.HubConnectionBuilder()
+        .withUrl(hubUrl)
+        .configureLogging(signalR.LogLevel.Information)
+        .build();
+ 
+    hubConnection.on("ShowNoty", function (data) {               
+        toastr.success('Without any options', data)    
+    });
+
+     hubConnection.start();
+
+    </script>
     @RenderSection("scripts", required: false)
+
 </body>
 </html>
+
+

@@ -31,7 +31,9 @@
                     <li class="@Html.IsSelected(action: "Dashboard_2")"><a href="@Url.Action("Dashboard_2", "Home")">Dashboard v.2</a></li>                    
                 </ul>
             </li>
-
+              <li class="@Html.IsSelected(controller: "OutpootLog")">
+                <a href="@Url.Action("Index", "OutpootLog")"><i class="fa fa-pie-chart"></i> <span class="nav-label" data-i18n="nav.metrics">Logs</span> </a>
+            </li>
             <li class="@Html.IsSelected(controller: "Metrics")">
                 <a href="@Url.Action("Index", "Metrics")"><i class="fa fa-pie-chart"></i> <span class="nav-label" data-i18n="nav.metrics">Metrics</span> </a>
             </li>
