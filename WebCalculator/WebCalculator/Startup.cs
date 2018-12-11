@@ -70,11 +70,7 @@ namespace WebCalculator
                 routes.MapHub<MessagesHub>("/message");
             });
 
-             app.Use(next => async (context) =>
-            {
-                var hubContext = context.RequestServices
-                    .GetRequiredService<IHubContext<MessagesHub>>();                
-            });
+             
         }
     }
 }

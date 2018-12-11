@@ -19,9 +19,7 @@ namespace WebCalculator
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseKestrel()
-                .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()                
+                .UseContentRoot(Directory.GetCurrentDirectory())               
                 .UseStartup<Startup>()
                 .UseUrls("http://localhost:5000/")
                 .Build();
