@@ -42,7 +42,7 @@ namespace CustomWebClient
 
                 //TODO:   Program.messages.Add(Program.GetDateFormat(DateTime.Now) + "\tCloudflareEvader status --> OK\n", ConsoleColor.Magenta);
                 // HomeController.Send("CloudflareEvader status --> OK");
-                logger.Log("CloudflareEvader status --> OK");
+                logger.Log("CloudflareEvader status --> OK","Success");
 
 
 
@@ -52,7 +52,7 @@ namespace CustomWebClient
             {
                 if (ex.Message == "Удаленный сервер возвратил ошибку: (429) Too Many Requests.")
                 {
-                    logger.Log("Have banned Sleep 10 minutes");
+                    logger.Log("Have banned Sleep 10 minutes","Warning");
                     //HomeController.Send("Have banned Sleep 10 minutes");
 
                    
@@ -61,8 +61,8 @@ namespace CustomWebClient
                     Thread.Sleep(600000);
                 }
 
-                logger.Log(ex.Message);
-                logger.Log("Try AntiDDoS CloudflareEvader | status --> Try");
+                logger.Log(ex.Message,"Error");
+                logger.Log("Try AntiDDoS CloudflareEvader | status --> Try","Warning");
 
                 //HomeController.Send("ex.Message");
                 //HomeController.Send("Try AntiDDoS CloudflareEvader | status --> Try");
@@ -134,7 +134,7 @@ namespace CustomWebClient
                     }
                 }
 
-                logger.Log("AntiDDoS CloudflareEvader | status --> Success");
+                logger.Log("AntiDDoS CloudflareEvader | status --> Success","Success");
                 //HomeController.Send("AntiDDoS CloudflareEvader | status --> Success");
 
                 

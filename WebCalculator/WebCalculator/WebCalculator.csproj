@@ -20,4 +20,9 @@
     <ProjectReference Include="..\CustomWebClient\CustomWebClient.csproj" />
     <ProjectReference Include="..\ProxyChecker\ProxyChecker.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\proxyServers.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

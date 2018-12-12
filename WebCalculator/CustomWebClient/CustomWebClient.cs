@@ -43,7 +43,7 @@ namespace CustomWebClient
                     catch (Exception ex)
                     {
                         //Send(ex.Message);
-                        logger.Log(ex.Message);
+                        logger.Log(ex.Message,"Error");
                         //TODO 429 need proxy
                         coockie = null;
                         goto Start;
@@ -56,7 +56,7 @@ namespace CustomWebClient
                     if (coockie == null)
                     {
                         //Send("cookieAgain after 10 sec");
-                        logger.Log("cookieAgain after 10 sec");
+                        logger.Log("cookieAgain after 10 sec","Warning");
                         Thread.Sleep(10000);
                         goto coockieAgain;
                     }
@@ -74,8 +74,8 @@ namespace CustomWebClient
             }
             catch (Exception ex)
             {
-                logger.Log("Fix for proxy TODO");
-                logger.Log(ex.Message);
+                logger.Log("Fix for proxy TODO","Error");
+                logger.Log(ex.Message,"Error");
                 coockie = null;
 
                 if (webProxy==null)
@@ -85,11 +85,7 @@ namespace CustomWebClient
                 else
                 {
                     throw new BadProxyException("Bad proxy server");
-                }
-
-              
-
-
+                }  
                 //Send("Fix for proxy TODO");
                 //Send(ex.Message);
                // goto Start;
@@ -97,7 +93,7 @@ namespace CustomWebClient
 
             if (result == "Ddos, 20-50 mins.\n")
             {
-                logger.Log("Ddos, 20-50 mins");
+                logger.Log("Ddos, 20-50 mins","Warning");
                 //Send("Ddos, 20-50 mins");
                 coockie = null;
                 goto Start;

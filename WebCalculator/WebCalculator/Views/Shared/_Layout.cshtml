@@ -9,24 +9,21 @@
     @if (IsSectionDefined("Styles"))
     {@RenderSection("Styles", required: false)}
     <environment names="Development">
+        <link rel="stylesheet" href="~/lib_bower/toastr/toastr.css" />
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/lib_bower/font-awesome/css/font-awesome.css" />
         <link rel="stylesheet" href="~/lib_bower/metisMenu/dist/metisMenu.css" />
         <link rel="stylesheet" href="~/css/animate.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-        <link rel="stylesheet" href="~/lib_bower/toastr/toastr.css" />
     </environment>
     <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/lib_bower/toastr/toastr.min.css" />
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/lib_bower/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="~/lib_bower/metisMenu/dist/metisMenu.min.css" />
         <link rel="stylesheet" href="~/css/animate.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-        <link rel="stylesheet" href="~/lib_bower/toastr/toastr.min.css" />
-    </environment>
-
-    
-
+    </environment>    
 </head>
 <body>
     <!-- Skin configuration box -->
@@ -58,7 +55,6 @@
         <script src="~/lib_bower/toastr/toastr.js"></script>
         <script src="~/js/script.js"></script>
         <script src="~/js/signalr.js"></script>
-
         <!-- Only for demo purpose -->
         <script src="~/js/skin.config.js"></script>
     </environment>
@@ -76,38 +72,109 @@
  
     <script>
         $(document).ready(function () {
-                  toastr.options = {
-        "closeButton": true,
-        "debug": false,
-        "progressBar": true,
-        "positionClass": "toast-top-right",
-        "onclick": null,
-        "showDuration": "400",
-        "hideDuration": "1000",
-        "timeOut": "7000",
-        "extendedTimeOut": "1000",
-        "showEasing": "swing",
-        "hideEasing": "linear",
-        "showMethod": "fadeIn",
-        "hideMethod": "fadeOut"
-      }
-      
-           
+                toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "progressBar": true,
+                "positionClass": "toast-top-right",
+                "onclick": null,
+                "showDuration": "400",
+                "hideDuration": "1000",
+                "timeOut": "7000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }                 
         });
 
-         let hubUrl = '/message';
+        let hubUrl = '/message';
         const hubConnection = new signalR.HubConnectionBuilder()
         .withUrl(hubUrl)
         .configureLogging(signalR.LogLevel.Information)
         .build();
  
-    hubConnection.on("ShowNoty", function (data) {               
-        toastr.success('Without any options', data)    
-    });
+        hubConnection.on("ShowNoty", function (typeMessage, message) {    
+           
+            if(typeMessage=="Info")            
+                toastr.info(typeMessage, message)  
 
-     hubConnection.start();
+             if(typeMessage=="Success")
+                toastr.success(typeMessage, message) 
 
+             if(typeMessage=="Warning")
+                toastr.warning(typeMessage, message) 
+  
+            if(typeMessage=="Error")
+                toastr.error(typeMessage, message)                     
+        });
+
+
+        hubConnection.on("AddMessageToLog", function (messageJson) {    
+            var messageObj = JSON.parse(messageJson);
+
+            var message = messageObj.Message;
+            var type = messageObj.Type;
+            var date = messageObj.Date;            
+
+            var errorImgSrc = "/images/error.jpg";
+            var infoImgSrc = "/images/info.jpg";
+            var warningImgSrc = "/images/warning.jpg";
+            var okImgSrc ="/images/ok.jpg";
+
+            var imgPath;
+
+            switch(type) {
+                case 'Info':
+                    imgPath = infoImgSrc;
+                break
+
+                case 'Success': 
+                    imgPath = okImgSrc;
+                break
+
+                case 'Error':
+                    imgPath = errorImgSrc;
+                break
+
+                case 'Warning':
+                    imgPath = warningImgSrc;
+                break
+
+                default:
+                    imgPath = infoImgSrc;
+                break
+            }
+
+            var html =      '<div class="chat-element">'+
+                                '<a href="#" class="pull-left">'+
+                                    '<img alt="image" class="img-circle" src="'+imgPath+'">'+
+                                '</a>'+
+                                '<div class="media-body ">'+
+                                    '<small class="pull-right">2h ago</small>'+
+                                    '<strong>'+type+'</strong>'+
+                                    '<p class="m-b-xs">'+
+                                        message +
+                                    '</p>'+
+                                    '<small class="text-muted">'+date+'</small>'+
+                                '</div>'+
+                            '</div>';
+
+            var oldHtml = $('#OutpootLogDivContent').html();
+            var newHtml = oldHtml + html;
+
+            $('#OutpootLogDivContent').html(newHtml);  
+
+            var block = document.getElementById("OutpootLogDiv");
+            var height = block.scrollHeight;   
+            $('#OutpootLogDiv').animate({scrollTop: height}, 1000);                       
+        });
+
+
+        hubConnection.start();
     </script>
+
     @RenderSection("scripts", required: false)
 
 </body>

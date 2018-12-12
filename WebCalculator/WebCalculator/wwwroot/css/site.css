@@ -10250,3 +10250,8 @@ body.md-skin {
         margin: 0;
     }
 }
+
+#OutpootLogDiv{
+    height:55vh;
+    overflow-y: auto;
+}

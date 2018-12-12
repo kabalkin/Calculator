@@ -5,14 +5,14 @@ namespace WebCalculator.Models
 {
      public class MessagesHub : Hub
     {
-        public async Task ShowNoty(string message)
+        public async Task ShowNoty(string type, string message)
         {
-            await this.Clients.All.SendAsync("ShowNoty", message);
+            await this.Clients.All.SendAsync("ShowNoty", type, message);
         }
         
-        public async Task SendData(string message)
+        public async Task AddMessageToLog(string messageJson)
         {
-            await this.Clients.All.SendAsync("SendData", message);
+            await this.Clients.All.SendAsync("AddMessageToLog", messageJson);
         }
 
         public async Task SendToConsole(string message)

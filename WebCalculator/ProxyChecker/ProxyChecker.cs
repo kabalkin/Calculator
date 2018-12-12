@@ -65,25 +65,24 @@ namespace ProxyChecker
                 {
                     proxy.Ping = long.MaxValue;
                     proxy.IsWork = false;
-                    logger.Log(e.Message);
+                    logger.Log(e.Message,"Error");
                 }
                 catch (NeedableProxyException e)
                 {
                     proxy.Ping = long.MaxValue;
                     proxy.IsWork = false;
-                    logger.Log(e.Message);
+                    logger.Log(e.Message,"Error");
 
                 }
                 catch (Exception e)
                 {
                     proxy.Ping = long.MaxValue;
                     proxy.IsWork = false;
-                    logger.Log(e.Message);
+                    logger.Log(e.Message,"Error");
 
                 }
 
-                list.Add(proxy);
-                logger.Log("-----------------------------------------------------------------------");
+                list.Add(proxy);                
             }
 
             return list.ToArray();
